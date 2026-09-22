@@ -3,3 +3,9 @@ Include/
 Lib/
 Scripts/
 share/
+
+.vscode/
+
+data/raw/accepted_loans.csv
+data/processed/
+IMPLEMENTATION.md

@@ -1,0 +1,11 @@
+Loan default prediction is a critical challenge for financial institutions,
+as inaccurate risk assessment can lead to significant financial losses through bad loans or missed revenue from wrongly rejected creditworthy applicants. 
+Traditional single-model approaches often struggle to capture the full complexity of borrower behavior, 
+since linear models may miss non-linear feature interactions while tree-based models can overfit or lack calibrated probability estimates. 
+This project aims to build a stacked ensemble model that combines a 
+Random Forest classifier (to capture non-linear patterns and feature interactions such as income, debt ratio, and credit history) 
+with a Logistic Regression or XGBoost model (to capture global linear trends and produce well-calibrated probabilities), 
+feeding both base learners' predictions into a meta-model that learns to optimally combine their outputs. 
+The goal is to demonstrate that this stacking approach improves predictive performance — measured through
+ROC-AUC, Precision-Recall AUC, and F1-score — over either base model used independently, 
+ultimately providing a more robust and reliable loan default risk assessment tool.
