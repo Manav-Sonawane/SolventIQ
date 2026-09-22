@@ -1,0 +1,31 @@
+# Core data science
+numpy
+pandas
+scipy
+
+# Machine Learning
+scikit-learn
+xgboost
+imbalanced-learn
+
+# Visualization / EDA
+matplotlib
+seaborn
+
+# Model persistence
+joblib
+
+# API
+fastapi
+uvicorn[standard]
+pydantic
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# MLOps / experiment tracking
+mlflow
+
+# Configuration
+python-dotenv
