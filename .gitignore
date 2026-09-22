@@ -9,3 +9,7 @@ share/
 data/raw/accepted_loans.csv
 data/processed/
 IMPLEMENTATION.md
+
+models/*.joblib
+
+__pycache__/

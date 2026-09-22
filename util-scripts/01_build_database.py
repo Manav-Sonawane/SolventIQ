@@ -23,6 +23,7 @@ print("Creating cleaned loan database...")
 # --------------------------------------------------
 
 features = [
+    "issue_d",
     "loan_amnt",
     "funded_amnt",
     "funded_amnt_inv",
